@@ -1,0 +1,53 @@
+header {
+    font-size: 65px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    
+}
+  
+table, td {
+    border: 1px solid black;
+}
+
+td {
+    width: 330px;
+}
+
+hr {
+    border: 3px solid black;
+}
+
+#firstCell {
+    background-color: cornflowerblue;
+}
+
+#secondCell {
+    height: 218px;
+}
+
+footer {
+    text-align: center;
+    border: 2px solid black;
+    height: 100px;
+    
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+  aside {
+    float: left;
+    border: 2px solid black;
+  }
+  
+  main {
+    border: 2px solid black;
+    float: left;
+    width: 920px;
+  }
+  
